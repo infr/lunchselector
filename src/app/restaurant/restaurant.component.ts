@@ -17,7 +17,15 @@ export class RestaurantComponent implements OnInit {
       'My Lunch',
       'Fazer',
       'Yeti',
-      'Theron'
+      'Theron',
+      'Factory Kamppi',
+      'Subway',
+      'Eerikin pippuri',
+      'Burger King',
+      'Hua Du',
+      'City Market salad',
+      'Hima & Sali',
+      '.. Sorry I have really no idea.. 😩'
     ];
   }
 
