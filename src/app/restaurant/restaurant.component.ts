@@ -25,7 +25,7 @@ export class RestaurantComponent implements OnInit {
       'Hua Du',
       'City Market salad',
       'Hima & Sali',
-      '.. Sorry I have really no idea.. 😩'
+      'Theron, Porkkalankatu 3'
     ];
   }
 
