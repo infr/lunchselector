@@ -25,11 +25,16 @@ export class RestaurantComponent implements OnInit {
       'Hua Du',
       'City Market salad',
       'Hima & Sali',
-      'Theron, Porkkalankatu 3'
+      'Theron, Porkkalankatu 3',
+      'My Lunch'
     ];
   }
 
   ngOnInit() {
+    this.randomRestaurant();
+  }
+
+  public randomRestaurant(): void {
     this.restaurant = this.restaurants[Math.floor(Math.random() * this.restaurants.length)];
   }
 
