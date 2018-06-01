@@ -1,6 +1,6 @@
 # Lunchselector
 
-This project is used for getting a random lunchplace in Ruoholahti, Helsinki, Finland. Written in Angular.
+This project is used for getting a random ~~lunchplace~~ picnic place in Ruoholahti, Helsinki, Finland. Written in Angular.
 
 ## Run
 

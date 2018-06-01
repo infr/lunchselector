@@ -33,6 +33,6 @@ export class PlaceComponent implements OnInit {
 
   public randomPlace(): void {
     this.place = this.places[Math.floor(Math.random() * this.places.length)];
-    this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.place.map)
+    this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.place.map);
   }
 }

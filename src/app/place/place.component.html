@@ -2,25 +2,24 @@
 </div>
 
 <div class="container-content">
-  <h1>Today we eat at {{place.name}}</h1><br/>
-  <iframe
-    [src]="url"
-    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <h1>{{place.name}}</h1><br/>
+  <iframe class="map"
+          [src]="url" frameborder="0" style="border:0" allowfullscreen></iframe>
   <br/>
-  <button (click)="randomPlace()">Give me another..</button>
-
+  <button (click)="randomPlace()">Anna uusi kohde</button>
   <br/>
-  <h3>Eväät voi hakea seuraavista paikoista:</h3>
-  <ul>
-    <li>Subway</li>
-    <li>City Market</li>
-    <li>Mc Donalds</li>
-    <li>Burger Working</li>
-    <li>Chalupa</li>
-    <li>S-Market</li>
-    <li>Oma valinta</li>
-  </ul>
+  <div>
+    <h3>Eväät voi hakea seuraavista paikoista</h3>
+    <ul>
+      <li>Subway</li>
+      <li>City Market</li>
+      <li>Mc Donalds</li>
+      <li>Burger Working</li>
+      <li>Chalupa</li>
+      <li>S-Market</li>
+      <li>Oma valinta</li>
+    </ul>
+  </div>
 </div>
-
 
 
