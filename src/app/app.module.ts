@@ -5,6 +5,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { RestaurantComponent } from './restaurant/restaurant.component';
 import { PlaceComponent } from './place/place.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { RouterModule } from '@angular/router';
+// import { routes } from 'app-routing.module';
 
 
 @NgModule({
@@ -14,9 +17,12 @@ import { PlaceComponent } from './place/place.component';
     PlaceComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
+    //RouterModule.forRoot(routes)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [/*RouterModule*/]
 })
 export class AppModule { }
