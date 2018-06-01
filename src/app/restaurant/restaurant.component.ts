@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Restaurant } from '../shared/restaurant';
 
 @Component({
   selector: 'app-restaurant',
@@ -7,27 +8,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RestaurantComponent implements OnInit {
 
-  restaurant: string;
-  restaurants: string[];
+  restaurant: Restaurant;
+  restaurants: Restaurant[];
 
   constructor() {
     this.restaurants = [
-      'Dylan',
-      'Poijut',
-      'My Lunch',
-      'Fazer',
-      'Yeti',
-      'Theron',
-      'Factory Kamppi',
-      'Subway',
-      'Eerikin pippuri',
-      'Burger King',
-      'Hua Du',
-      'City Market salad',
-      'Hima & Sali',
-      'Theron, Porkkalankatu 3',
-      'My Lunch'
+      {name: 'Dylan'},
+      {name: 'Poijut'},
+      {name: 'My Lunch'},
+      {name: 'Fazer'},
+      {name: 'Yeti'},
+      {name: 'Theron'},
+      {name: 'Factory Kamppi'},
+      {name: 'Subway'},
+      {name: 'Eerikin pippuri'},
+      {name: 'Burger King'},
+      {name: 'Hua Du'},
+      {name: 'City Market salad'},
+      {name: 'Hima & Sali'},
+      {name: 'Theron, Porkkalankatu 3'},
+      {name: 'My Lunch'}
     ];
+
   }
 
   ngOnInit() {

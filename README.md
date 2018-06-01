@@ -4,7 +4,7 @@ This project is used for getting a random lunchplace in Ruoholahti, Helsinki, Fi
 
 ## Run
 
-You can access the current running version here <https://infr.github.io/lunchselector/> or run it yourself with `ng serve`.
+You can access the current running version here <https://infr.github.io/lunchselector/> or run it yourself with `npm start`.
 
 ## Build (for github.io pages)
 
