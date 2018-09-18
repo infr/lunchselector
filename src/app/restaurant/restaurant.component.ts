@@ -31,7 +31,6 @@ export class RestaurantComponent implements OnInit {
       {name: 'Chalupa & Jalla'},
       {name: 'Faro'}
     ];
-
   }
 
   ngOnInit() {
