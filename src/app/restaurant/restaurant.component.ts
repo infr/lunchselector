@@ -27,7 +27,9 @@ export class RestaurantComponent implements OnInit {
       {name: 'City Market salad'},
       {name: 'Hima & Sali'},
       {name: 'Theron, Porkkalankatu 3'},
-      {name: 'My Lunch'}
+      {name: 'My Lunch'},
+      {name: 'Chalupa & Jalla'},
+      {name: 'Faro'}
     ];
 
   }
